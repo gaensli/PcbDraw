@@ -2,8 +2,6 @@ name: test-pcbdraw
 on:
   push:
   pull_request:
-  schedule:
-    - cron: '0 3 * * *'
 jobs:
   test:
     name: "Run Pcbdraw tests"
